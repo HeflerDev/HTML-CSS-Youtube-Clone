@@ -25,6 +25,8 @@ body {
 .columns-div {
   margin: 0 75px;
   display: flex;
+
+  margin-bottom: 200px;
 }
 
 .columns-div > div {
@@ -32,7 +34,7 @@ body {
   padding-right: 24px;
 }
 
-.left-div-container{
+.left-div-container {
   max-width: 60%;
 }
 .right-division-container {
@@ -42,7 +44,6 @@ body {
 .left-div-container .video-elements-container {
   display: flex;
   justify-content: space-between;
-
 }
 
 .video-elements-container .video-elements-left,
@@ -73,7 +74,7 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.videos-section img{
+.videos-section img {
   width: 168px;
   height: 94px;
   margin-right: 8px;
@@ -88,58 +89,143 @@ body {
   justify-content: space-between;
   margin-top: 8px;
 }
-.text{
+.text {
   font-size: 13px;
-  color:gray;
+  color: gray;
   margin: auto;
   vertical-align: middle;
 }
-.yt-icon{
+.yt-icon {
   width: 20px;
 }
-.normal-text{
-    color = gray;
+.normal-text {
+  /* color = gray; */
 }
-.thumbs{
-    display: flex;
-    flex-direction: row;
-    margin-right: 40px;
+.thumbs {
+  display: flex;
+  flex-direction: row;
+  margin-right: 40px;
 }
 svg {
-    fill : currentColor;
+  fill: currentColor;
 }
 hr {
-    height: 1px;
-    border: none;
-    background-color: lightgray;
+  height: 1px;
+  border: none;
+  background-color: lightgray;
 }
-.sentient-bar{
-    height: 2px;
-    background-color: darkgray;
-    width: 10.5%;
-    margin-left: 252px;
-    display: inline-block;
-    position: absolute;
-    padding-top : 6px;
+.sentient-bar {
+  height: 2px;
+  background-color: darkgray;
+  width: 10.5%;
+  margin-left: 252px;
+  display: inline-block;
+  position: absolute;
+  padding-top: 6px;
 }
 .channel-thumbnail {
-    display: flex;
-    justify-content: flex-start;
+  display: flex;
+  justify-content: flex-start;
 }
 .channel-thumbnail div {
-    display: flex;
-    margin-top: auto;
-    margin-bottom: auto;
-    flex-direction: column;
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+  flex-direction: column;
 }
-.channel-name-container{
-    margin: 5px;
+.channel-name-container {
+  margin: 5px;
 }
-.video-description-text{
-    margin-left: 53px;
+.video-description-text {
+  margin-left: 53px;
 }
-.video-description-container img{
-    height: 48px;
-    border: 1px solid gray;
-    border-radius: 100%;
+.video-description-container img {
+  height: 48px;
+  border: 1px solid gray;
+  border-radius: 100%;
+}
+
+.comments-info {
+  margin-bottom: 24px;
+}
+.sort-comments {
+  display: flex;
+  color: gray;
+  align-items: center;
+  font-weight: bold;
+}
+.sort-comments .yt-icon {
+  margin-right: 8px;
+}
+
+.user-thumbnail {
+  margin-right: 16px;
+}
+.user-thumbnail img {
+  height: 40px;
+  width: 40px;
+}
+.comments-add .add-comment {
+  border: none;
+  border-bottom: 1px solid lightgray;
+}
+
+.comments-add .user-comment {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.comment-container {
+  display: flex;
+  flex-direction: column;
+}
+.comment-item {
+  display: flex;
+  margin-bottom: 16px;
+}
+.user-comment-info {
+  flex-direction: column;
+}
+.comment-container img {
+  width: 40px;
+  height: 40px;
+}
+.user-comment p {
+  margin: 0;
+}
+.user-name,
+.user-comment {
+  margin-bottom: 2px;
+  flex-direction: column;
+}
+.user-name {
+  font-weight: bold;
+}
+.user-name span {
+  font-weight: initial;
+}
+.user-name span {
+  color: gray;
+  /* display: inline; */
+}
+
+.comment-toolbar {
+  display: flex;
+  color: gray;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.comment-toolbar svg {
+  fill: currentColor;
+}
+.comment-toolbar span {
+  margin-left: 6px;
+  align-self: center;
+}
+.user-comment-dislike,
+.user-comment-like,
+.reply-button {
+  display: flex;
+  margin-right: 15px;
 }
