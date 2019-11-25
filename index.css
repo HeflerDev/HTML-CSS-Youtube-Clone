@@ -32,7 +32,9 @@ body {
   padding-right: 24px;
 }
 
-.left-div-container,
+.left-div-container{
+  max-width: 60%;
+}
 .right-division-container {
   flex-direction: column;
 }
@@ -40,11 +42,13 @@ body {
 .left-div-container .video-elements-container {
   display: flex;
   justify-content: space-between;
+
 }
 
-.video-elements-container .left,
-.video-elements-container .right {
+.video-elements-container .video-elements-left,
+.video-elements-container .video-elements-right {
   display: flex;
+  color: gray;
 }
 
 .comment-post-container {
@@ -64,4 +68,78 @@ body {
 
 .comments-add {
   display: flex;
+}
+.top-video-controls {
+  display: flex;
+  justify-content: space-between;
+}
+.videos-section img{
+  width: 168px;
+  height: 94px;
+  margin-right: 8px;
+}
+.videos-section {
+  display: flex;
+  flex-direction: row;
+}
+.video-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+.text{
+  font-size: 13px;
+  color:gray;
+  margin: auto;
+  vertical-align: middle;
+}
+.yt-icon{
+  width: 20px;
+}
+.normal-text{
+    color = gray;
+}
+.thumbs{
+    display: flex;
+    flex-direction: row;
+    margin-right: 40px;
+}
+svg {
+    fill : currentColor;
+}
+hr {
+    height: 1px;
+    border: none;
+    background-color: lightgray;
+}
+.sentient-bar{
+    height: 2px;
+    background-color: darkgray;
+    width: 10.5%;
+    margin-left: 252px;
+    display: inline-block;
+    position: absolute;
+    padding-top : 6px;
+}
+.channel-thumbnail {
+    display: flex;
+    justify-content: flex-start;
+}
+.channel-thumbnail div {
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    flex-direction: column;
+}
+.channel-name-container{
+    margin: 5px;
+}
+.video-description-text{
+    margin-left: 53px;
+}
+.video-description-container img{
+    height: 48px;
+    border: 1px solid gray;
+    border-radius: 100%;
 }
