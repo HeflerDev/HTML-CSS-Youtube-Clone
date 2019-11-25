@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+}
+
+.youtube-header-container {
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+
+.youtube-header-container > div {
+  margin: auto 0;
+}
+
+.youtube-header-container #search-bar {
+  height: 50%;
+  margin: auto 0;
+}
+
+.youtube-header-container .guide {
+  display: flex;
+}
+
+.columns-div {
+  margin: 0 75px;
+  display: flex;
+}
+
+.columns-div > div {
+  padding-top: 24px;
+  padding-right: 24px;
+}
+
+.left-div-container,
+.right-division-container {
+  flex-direction: column;
+}
+
+.left-div-container .video-elements-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.video-elements-container .left,
+.video-elements-container .right {
+  display: flex;
+}
+
+.comment-post-container {
+  margin: 24px 0 32px 0;
+}
+
+.comments-info {
+  display: flex;
+}
+.comments-info .number-of-comments {
+  margin-right: 32px;
+}
+.comments-info .number-of-comments h2 {
+  /* margin: 0 32px 0 0; */
+  margin: 0;
+}
+
+.comments-add {
+  display: flex;
+}

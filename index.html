@@ -1,55 +1,89 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <title>Contributing to Open Source Part I: The Easy Way</title>
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <header class='youtube-header-container'>
-            <div class="menu-button">button here</div>
-            <div class="youtube-logo"></div>
-            <div class="search-bar"></div>
-            <div class="header-elements"></div>
-        </header>
-        <div class="main-div">
-            <div class="left-div-container">
-                <div class='iframe-div'>
-                    <iframe src="" width="576px" height="360px"name='thing'>sdfasf</iframe>
-                </div>
-                <h2>Contributing to Open Source Part I: The Easy Way</h2>
-                <div class="video-elements-container">
-                    <div class="number-of-views">views btn</div>
-                    <div class='like-dislike'>video buttons</div>
-                    <div class="share-button"></div>
-                    <div class="save-button"></div>
-                    <div class="video-menu"></div>
-                </div>
-                <div class="video-description-container">
-                    <div class="user-thumbnail">Header</div>
-                    <div class="channel-name"></div>
-                    <div class="video-description-text">Text</div>
-                </div>
-                <div class="comment-section-container">
-                    <div class='comment-post-container'>
-                        <div class="number-of-comments">noc</div>
-                        <div class="sort-comments">sc</div>
-                        <div class="user-thumbnail"></div>
-                        <input type="text" class='add-comment' placeholder="Add public comment">
-                    </div>
-                    <div class="comment-container">
-                        <div class="user-thumbnail"></div>
-                        <div class="user-name"></div>
-                        <div class="user-comment"></div>
-                        <div class="like-dislike"></div>
-                        <div class="reply-text"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="right-division-container">
-                <div class="top-video-controls"></div>
-                <div class="videos-section"></div>
-            </div>
+  <head>
+    <meta charset="utf-8" />
+    <title>Contributing to Open Source Part I: The Easy Way</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header class="youtube-header-container">
+      <div class="guide">
+        <div class="menu-button">button here</div>
+        <div class="youtube-logo">Logo</div>
+      </div>
+      <input type="text" id="search-bar" placeholder="Search" />
+      <div class="header-elements">User</div>
+    </header>
+    <div class="columns-div">
+      <div class="left-div-container">
+        <div class="iframe-div">
+          <!-- <iframe src="" width="576px" height="360px" name="thing">sdfasf</iframe> -->
+          <iframe
+            width="100%"
+            height="400"
+            src="https://www.youtube.com/embed/V74l_zS1x8E?controls=0"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
         </div>
-    </body>
+        <h2>Contributing to Open Source Part I: The Easy Way</h2>
+        <div class="video-elements-container">
+          <div class="left">
+            <div class="number-of-views">views btn</div>
+            <div class="like-dislike">video buttons</div>
+          </div>
+          <div class="right">
+            <div class="share-button">Share</div>
+            <div class="save-button">Save</div>
+            <div class="video-menu">...</div>
+          </div>
+        </div>
+        <div class="video-description-container">
+          <div class="channel-thumbnail">
+            <img src="" alt="" />
+          </div>
+          <div class="channel-name">The Odin Project</div>
+          <div class="video-description-text">
+            How do you contribute to open source? In this video, I'll describe
+            the easiest way to make a simple contribution to an open source
+            project -- without using the command line, a text editor, "forking a
+            repo", or even touching Git outside of Github. I'll also describe
+            what kinds of contributions open
+          </div>
+        </div>
+        <hr />
+
+        <div class="comment-section-container">
+          <div class="comment-post-container">
+            <div class="comments-info">
+              <div class="number-of-comments">
+                <h2>noc</h2>
+              </div>
+              <div class="sort-comments">sc</div>
+            </div>
+            <div class="comments-add">
+              <div class="user-thumbnail">User ThumbN</div>
+              <input
+                type="text"
+                class="add-comment"
+                placeholder="Add public comment"
+              />
+            </div>
+          </div>
+          <div class="comment-container">
+            <div class="user-thumbnail"></div>
+            <div class="user-name"></div>
+            <div class="user-comment"></div>
+            <div class="like-dislike"></div>
+            <div class="reply-text"></div>
+          </div>
+        </div>
+      </div>
+      <div class="right-div-container">
+        <div class="top-video-controls">Video Controls</div>
+        <div class="videos-section">V Section</div>
+      </div>
+    </div>
+  </body>
 </html>
