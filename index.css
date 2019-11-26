@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background-color: rgb(240, 240, 255);
 }
 
 .youtube-header-container {
@@ -7,6 +8,10 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 0 16px;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+
 }
 .youtube-header-container .youtube-logo {
   width: 106px;
@@ -21,6 +26,7 @@ body {
 .header-elements {
   display: flex;
   flex-direction: row;
+  padding-right: 50px;
 }
 .user-thumbnail-top img {
   width: 32px;
@@ -176,19 +182,37 @@ hr {
 }
 .channel-thumbnail {
   display: flex;
-  justify-content: flex-start;
 }
 .channel-thumbnail div {
   display: flex;
   margin-top: auto;
   margin-bottom: auto;
-  flex-direction: column;
+}
+.channel-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+}
+.channel-container button {
+    border:none;
+    background-color: red;
+    color:white;
+    border-radius: 5px;
+    width: 105px;
+    font-size: 18px;
+    height: 40px;
+    margin: auto;
+    margin-right: 0;
 }
 .channel-name-container {
   margin: 5px;
+  display: flex;
+  flex-direction: column;
 }
 .video-description-text {
   margin-left: 53px;
+  margin-top: 20px;
 }
 .video-description-container img {
   height: 48px;
