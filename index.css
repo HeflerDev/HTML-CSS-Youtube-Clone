@@ -1,0 +1,314 @@
+body {
+  margin: 0;
+  background-color: rgb(240, 240, 255);
+}
+
+iframe {
+  width: 100%;
+  border: none;
+}
+
+.youtube-header-container {
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+}
+.youtube-header-container .youtube-logo {
+  width: 106px;
+  height: 24px;
+  margin: auto;
+  margin-left: 20%;
+  background-image: url("https://darkeandtaylor.co.uk/wp-content/uploads/2018/09/youtube-logo-png-transparent-image-e1537456990695.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.header-elements {
+  display: flex;
+  flex-direction: row;
+  padding-right: 50px;
+}
+.user-thumbnail-top img {
+  width: 32px;
+  cursor: pointer;
+}
+.svg-icon {
+  width: 25px;
+  height: 25px;
+  margin: auto;
+  margin-right: 25px;
+  cursor: pointer;
+}
+.search-bar-container {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid darkgray;
+  border-radius: 3px;
+  height: 32px;
+  width: 575px;
+  margin: auto;
+  justify-content: space-between;
+}
+#search-bar {
+  border: none;
+}
+.search-bar-container button {
+  width: 65px;
+  border: none;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 4px;
+}
+
+.youtube-header-container > div {
+  margin: auto 0;
+}
+
+.youtube-header-container #search-bar {
+  height: 50%;
+  margin: auto 0;
+}
+
+.youtube-header-container .guide {
+  display: flex;
+}
+
+.columns-div {
+  margin: 0 75px;
+  display: flex;
+  padding-top: 56px;
+  margin-bottom: 200px;
+}
+
+.columns-div > div {
+  padding-top: 24px;
+  padding-right: 24px;
+}
+
+.left-div-container {
+  margin-top: 1em;
+  max-width: 70%;
+}
+
+.right-div-container {
+  margin-top: 1em;
+  margin-left: 4em;
+
+  flex-direction: column;
+}
+
+.left-div-container .video-elements-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.video-elements-container .video-elements-left,
+.video-elements-container .video-elements-right {
+  display: flex;
+  color: gray;
+}
+
+.comment-post-container {
+  margin: 24px 0 32px 0;
+}
+
+.comments-info {
+  display: flex;
+}
+.comments-info .number-of-comments {
+  margin-right: 32px;
+}
+.comments-info .number-of-comments h2 {
+  margin: 0;
+}
+
+.comments-add {
+  display: flex;
+}
+.top-video-controls {
+  display: flex;
+  justify-content: space-between;
+}
+.videos-section img {
+  width: 168px;
+  height: 94px;
+  margin-right: 8px;
+}
+.videos-section {
+  /* display: flex; */
+  /* flex-direction: row; */
+}
+
+.video-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+.text {
+  font-size: 13px;
+  color: gray;
+  margin: auto;
+  vertical-align: middle;
+}
+.yt-icon {
+  width: 20px;
+}
+.thumbs {
+  display: flex;
+  flex-direction: row;
+  margin-right: 40px;
+}
+svg {
+  fill: currentColor;
+}
+
+hr {
+  height: 1px;
+  border: none;
+  background-color: lightgray;
+  margin-top: 8px;
+}
+
+.thumbs-div {
+  display: flex;
+  position: relative;
+}
+.thumbs span {
+  margin-left: 4px;
+}
+.sentient-bar {
+  border: 1px solid gray;
+  position: absolute;
+  left: 0px;
+  bottom: -10px;
+  width: 77%;
+}
+.channel-thumbnail {
+  display: flex;
+}
+.channel-thumbnail div {
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.channel-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+}
+.channel-container button {
+  border: none;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  width: 105px;
+  font-size: 18px;
+  height: 40px;
+  margin: auto;
+  margin-right: 0;
+}
+.channel-name-container {
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.video-description-text {
+  margin-left: 53px;
+  margin-top: 20px;
+}
+.video-description-container img {
+  height: 48px;
+  border: 1px solid gray;
+  border-radius: 100%;
+}
+
+.comments-info {
+  margin-bottom: 24px;
+}
+.sort-comments {
+  display: flex;
+  color: gray;
+  align-items: center;
+  font-weight: bold;
+}
+.sort-comments .yt-icon {
+  margin-right: 8px;
+}
+
+.user-thumbnail {
+  margin-right: 16px;
+}
+.user-thumbnail img {
+  height: 40px;
+  width: 40px;
+}
+.comments-add .add-comment {
+  border: none;
+  border-bottom: 1px solid lightgray;
+}
+
+.comments-add .user-comment {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.comment-container {
+  display: flex;
+  flex-direction: column;
+}
+.comment-item {
+  display: flex;
+  margin-bottom: 16px;
+}
+.user-comment-info {
+  flex-direction: column;
+}
+.comment-container img {
+  width: 40px;
+  height: 40px;
+}
+.user-comment p {
+  margin: 0;
+}
+.user-name,
+.user-comment {
+  margin-bottom: 2px;
+  flex-direction: column;
+}
+.user-name {
+  font-weight: bold;
+}
+.user-name span {
+  font-weight: initial;
+}
+.user-name span {
+  color: gray;
+}
+
+.comment-toolbar {
+  display: flex;
+  color: gray;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.comment-toolbar svg {
+  fill: currentColor;
+}
+.comment-toolbar span {
+  margin-left: 6px;
+  align-self: center;
+}
+.user-comment-dislike,
+.user-comment-like,
+.reply-button {
+  display: flex;
+  margin-right: 15px;
+}
