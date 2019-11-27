@@ -3,6 +3,11 @@ body {
   background-color: rgb(240, 240, 255);
 }
 
+iframe {
+  width: 100%;
+  border: none;
+}
+
 .youtube-header-container {
   height: 56px;
   display: flex;
@@ -11,8 +16,6 @@ body {
   background-color: white;
   position: fixed;
   width: 100%;
-
-
 }
 .youtube-header-container .youtube-logo {
   width: 106px;
@@ -90,7 +93,11 @@ body {
 .left-div-container {
   max-width: 60%;
 }
-.right-division-container {
+
+.right-div-container {
+  margin-top: 1em;
+  margin-left: 1em;
+
   flex-direction: column;
 }
 
@@ -116,7 +123,6 @@ body {
   margin-right: 32px;
 }
 .comments-info .number-of-comments h2 {
-  /* margin: 0 32px 0 0; */
   margin: 0;
 }
 
@@ -136,6 +142,7 @@ body {
   display: flex;
   flex-direction: row;
 }
+
 .video-item {
   display: flex;
   flex-direction: row;
@@ -151,9 +158,6 @@ body {
 .yt-icon {
   width: 20px;
 }
-.normal-text {
-  /* color = gray; */
-}
 .thumbs {
   display: flex;
   flex-direction: row;
@@ -162,11 +166,14 @@ body {
 svg {
   fill: currentColor;
 }
+.separator,
 hr {
   height: 1px;
   border: none;
   background-color: lightgray;
+  margin-top: 8px;
 }
+
 .thumbs-div {
   display: flex;
   position: relative;
@@ -189,22 +196,22 @@ hr {
   margin-top: auto;
   margin-bottom: auto;
 }
-.channel-container{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    width: 100%;
+.channel-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
 }
 .channel-container button {
-    border:none;
-    background-color: red;
-    color:white;
-    border-radius: 5px;
-    width: 105px;
-    font-size: 18px;
-    height: 40px;
-    margin: auto;
-    margin-right: 0;
+  border: none;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  width: 105px;
+  font-size: 18px;
+  height: 40px;
+  margin: auto;
+  margin-right: 0;
 }
 .channel-name-container {
   margin: 5px;
@@ -283,7 +290,6 @@ hr {
 }
 .user-name span {
   color: gray;
-  /* display: inline; */
 }
 
 .comment-toolbar {
